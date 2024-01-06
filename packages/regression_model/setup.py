@@ -15,8 +15,8 @@ NAME = 'regression_model'
 # EMAIL = 'your_email@email.com'
 # AUTHOR = 'Your name'
 DESCRIPTION = 'Former et deployer un modele de regression.'
-URL = 'https://github.com/cegep2020/cours-A61.git'
-EMAIL = 'aamami@csfoy.ca'
+URL = 'git@github.com:Raiders37/Mise_production_A61_2023.git'
+EMAIL = 'demande@moile.com'
 AUTHOR = 'Cegep AA'
 REQUIRES_PYTHON = '>=3.6.0'
 
@@ -71,7 +71,7 @@ setup(
     include_package_data=True,
     license='MIT',
     classifiers=[
-        # Trove classifiers
+        # Trouve classifiers
         # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
