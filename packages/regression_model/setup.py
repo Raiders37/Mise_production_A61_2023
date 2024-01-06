@@ -17,7 +17,7 @@ NAME = 'regression_model'
 DESCRIPTION = 'Former et deployer un modele de regression.'
 URL = 'git@github.com:Raiders37/Mise_production_A61_2023.git'
 EMAIL = 'demande@moile.com'
-AUTHOR = 'Cegep AA'
+AUTHOR = 'Cegep MB'
 REQUIRES_PYTHON = '>=3.6.0'
 
 

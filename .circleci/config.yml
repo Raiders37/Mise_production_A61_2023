@@ -6,6 +6,14 @@ jobs:
       - image: circleci/python:3.7.2
     steps:
       - checkout
+##########################################
+      - run:
+          name: Set Kaggle Config
+          command: |
+            mkdir -p /home/circleci/.kaggle
+            cp .kaggle/kaggle.json /home/circleci/.kaggle/kaggle.json
+            chmod 600 /home/circleci/.kaggle/kaggle.json
+##############################################
       - run:
           name: Runnning tests
           command: |
