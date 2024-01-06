@@ -44,6 +44,15 @@ jobs:
             virtualenv venv
             . venv/bin/activate
             pip install -r packages/regression_model/requirements.txt
+##########################################
+      - run:
+          name: Set Kaggle Config
+          command: |
+            mkdir -p /home/circleci/.kaggle
+            cp .kaggle/kaggle.json /home/circleci/.kaggle/kaggle.json
+            chmod 600 /home/circleci/.kaggle/kaggle.json
+##############################################
+
       - run: 
           name: Publish model
           command: |
